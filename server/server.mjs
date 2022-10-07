@@ -13,7 +13,8 @@ const db = {
 };
 
 // SET UP MIDDLEWARE
-app.use(bp.urlencoded({ extended: true }));
+
+// app.use(bp.urlencoded({ extended: true }));
 app.use(bp.json());
 app.use(morgan("dev"));
 
